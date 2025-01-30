@@ -8,7 +8,7 @@
 
 ## 주차별 실습 내용
 
-### Project #2 - **Encoder, Decoder, Adder 설계**
+### 📌 Project #2 - **Encoder, Decoder, Adder 설계**
 - **Encoder & Decoder**
   - `encoder.v`: Simple Encoder (One-hot → Binary)
   - `decoder.v`: Binary → Decimal Decoder
@@ -17,28 +17,28 @@
   - `full_adder.v`: 전가산기
   - `ripple_carry_adder.v`: Ripple Carry Adder
 
-### 📌 5주차 - **카운터 및 메모리**
+### 📌 Project #4 - **카운터 및 메모리**
 - **Binary & Decade Counter**
   - `binary_counter.v`: 2진 카운터
   - `decade_counter.v`: 10진 카운터
 - **Memory 설계**
   - `sram_4x4.v`: 4x4 SRAM (Read/Write)
 
-### 📌 6주차 - **유한상태기계(FSM) 설계**
+### 📌 Project #5 - **유한상태기계(FSM) 설계**
 - **FSM 모델**
   - `moore_fsm.v`: Moore Machine
   - `mealy_fsm.v`: Mealy Machine
 - **Control Unit 설계**
   - `control_unit.v`: FSM 기반 메모리 제어
 
-### 📌 9주차 - **FPGA 보드 기초 실습**
+### 📌 Project #6 - **FPGA 보드 기초 실습**
 - **논리 게이트 & LED 컨트롤**
   - `logic_gates.v`: AND, OR, XOR 게이트
   - `top_module.v`: DIP 스위치 → LED 제어
 - **FPGA 프로그래밍**
   - ISE Design Suite를 이용한 핀 매핑 및 프로그래밍
 
-### 📌 11주차 - **FPGA 보드의 기타 모듈 실습**
+### 📌 Project #8 - **FPGA 보드의 기타 모듈 실습**
 - **Piezo (부저)**
   - `piezo.v`: 주파수 조절을 통한 소리 발생
 - **Step Motor**
