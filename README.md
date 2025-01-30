@@ -60,7 +60,7 @@
 - **FPGA 프로그래밍**
   - ISE Design Suite를 이용한 핀 매핑 및 프로그래밍
 
-### 📌 Project #8 - **FPGA 보드의 기타 모듈 실습**
+### 📌 Project #7 - **FPGA 보드의 기타 모듈 실습**
 - **Piezo (부저)**
   - `piezo.v`: 주파수 조절을 통한 소리 발생
 - **Step Motor**
