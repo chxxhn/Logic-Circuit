@@ -8,6 +8,17 @@
 
 ## 주차별 실습 내용
 
+### 📌 Project #1 - **기본적인 논리식과 Quartus 사용법**
+- **논리 게이트 설계**
+  - `basic_logic.v`: AND, OR, NOT 논리 연산
+  - `comparator_1bit.v`: 1비트 비교기 회로
+- **논리식 예시**
+  - F = (A AND B) OR (NOT C)
+- **Quartus 사용법**
+  - 논리 회로 설계 및 심볼 작성
+  - `.v` 파일을 이용한 Verilog 코드 변환
+  - ModelSim을 이용한 시뮬레이션 및 파형 분석
+
 ### 📌 Project #2 - **Encoder, Decoder, Adder 설계**
 - **Encoder & Decoder**
   - `encoder.v`: Simple Encoder (One-hot → Binary)
@@ -16,6 +27,17 @@
   - `half_adder.v`: 반가산기
   - `full_adder.v`: 전가산기
   - `ripple_carry_adder.v`: Ripple Carry Adder
+
+ ### 📌 Project #3 - **Flip-Flop 및 Register 이해**
+- **Flip-Flop 설계**
+  - `d_flipflop.v`: D Flip-Flop
+  - `t_flipflop.v`: T Flip-Flop
+- **Register 설계**
+  - `register_4bit.v`: 4비트 레지스터
+  - `shift_register.v`: Shift Register (Left, Right)
+- **조합회로 vs 순차회로**
+  - 조합회로: 입력이 즉시 출력을 결정
+  - 순차회로: 현재 입력 + 이전 상태로 출력 결정
 
 ### 📌 Project #4 - **카운터 및 메모리**
 - **Binary & Decade Counter**
