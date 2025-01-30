@@ -1,4 +1,4 @@
-# Project 1: HDL 구현
+# Project #1 - HDL 구현
 
 ## 개요
 **Encoder, Decoder 및 가산기(Adder)** 에 대한 개념을 배우고, 이를 설계 및 HDL로 구현하는 실습입니다.
