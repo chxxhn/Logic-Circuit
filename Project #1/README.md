@@ -26,7 +26,13 @@ Boolean 논리식과 **AND, OR, NOT 게이트**를 이용한 회로 설계 기�
   - A = B → LED2 ON
 
 - **진리표 및 K-map**
-A B | LED1 LED2 0 0 | 0 1 0 1 | 0 0 1 0 | 1 0 1 1 | 0 1
+| A | B | LED1 | LED2 |
+|---|---|------|------|
+| 0 | 0 |  0   |  1   |
+| 0 | 1 |  0   |  0   |
+| 1 | 0 |  1   |  0   |
+| 1 | 1 |  0   |  1   |
+
   
 ### 3. Quartus를 이용한 설계 및 시뮬레이션
 Quartus는 FPGA 및 논리회로 설계를 위한 **EDA (Electronic Design Automation) 툴**입니다.
