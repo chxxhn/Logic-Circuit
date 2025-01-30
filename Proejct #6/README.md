@@ -1,4 +1,4 @@
-# 디지털 논리회로 설계 - FPGA 보드 실습
+# Project #6 - FPGA 보드 실습
 
 ## 개요
 **FPGA(Field Programmable Gate Array) 보드**를 활용한 논리 회로 실습입니다.  
