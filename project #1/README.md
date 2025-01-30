@@ -21,4 +21,10 @@
   - `half_adder.v`
   - `full_adder.v`
   - `ripple_carry_adder.v`
+ 
+## 실행 방법
+1. [Quartus](https://www.intel.com/content/www/us/en/software/programmable/quartus-prime/overview.html) 또는 [ModelSim](https://www.intel.com/content/www/us/en/software/programmable/modelsim/overview.html) 설치
+2. `src/` 폴더의 Verilog 파일을 Quartus 또는 ModelSim에 로드
+3. `testbench/` 폴더의 테스트 벤치 파일을 실행하여 각 모듈 검증
+4. 시뮬레이션 결과를 확인하고 논리 회로 동작을 분석
 
